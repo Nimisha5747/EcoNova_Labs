@@ -185,7 +185,7 @@ export function HelpNovaChatbot() {
 
       {/* Chatbot Window */}
       {isOpen && (
-       <Card className="fixed bottom-4 right-4 w-[85vw] max-w-sm h-[70vh] sm:w-80 sm:h-[500px] shadow-xl border-0 z-50 bg-white rounded-lg">
+       <Card className="fixed bottom-4 right-4 w-[70vw] max-w-sm h-[70vh] sm:w-80 sm:h-[500px] shadow-xl border-0 z-50 bg-white rounded-lg">
 
 
           <CardHeader className="bg-gradient-to-r from-econova-primary to-econova-primary-light text-white p-4 rounded-t-lg">
@@ -222,7 +222,8 @@ export function HelpNovaChatbot() {
 
           {!isMinimized && (
             <>
-              <CardContent className="p-0 flex-1 flex flex-col h-[500px]">
+              <CardContent className="p-0 flex-1 flex flex-col h-full">
+
                 {/* Messages */}
                 <ScrollArea className="flex-1 p-4">
                   <div className="space-y-4">
