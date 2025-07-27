@@ -88,3 +88,15 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes truck-move {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.animate-truck-move {
+  animation: truck-move 10s linear infinite;
+}
