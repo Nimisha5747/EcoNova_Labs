@@ -412,30 +412,52 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* Company Stats */}
+      {/* Join Our Growing Team - Updated without dummy data */}
       <section className="py-20 bg-econova-lighter">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-econova-primary mb-4">Join Our Growing Team</h2>
             <p className="text-xl text-econova-text-light max-w-2xl mx-auto">
-              Be part of India's fastest-growing e-waste management company
+              Be part of India's fastest-growing e-waste management company and help us build a sustainable future
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { number: "200+", label: "Team Members", icon: Users },
-              { number: "15+", label: "Cities", icon: MapPin },
-              { number: "3 Years", label: "Average Tenure", icon: Clock },
-              { number: "95%", label: "Employee Satisfaction", icon: Briefcase },
-            ].map((stat, index) => {
-              const Icon = stat.icon
+              {
+                icon: Users,
+                title: "Growing Team",
+                desc: "Join our expanding workforce across India",
+                color: "from-econova-accent to-econova-secondary",
+              },
+              {
+                icon: MapPin,
+                title: "Multiple Cities",
+                desc: "Opportunities available in major Indian cities",
+                color: "from-blue-500 to-purple-600",
+              },
+              {
+                icon: Clock,
+                title: "Career Growth",
+                desc: "Fast-track your career with us",
+                color: "from-green-500 to-teal-600",
+              },
+              {
+                icon: Briefcase,
+                title: "Great Culture",
+                desc: "Work in a positive, mission-driven environment",
+                color: "from-yellow-500 to-orange-600",
+              },
+            ].map((item, index) => {
+              const Icon = item.icon
               return (
                 <div key={index} className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-econova-accent to-econova-secondary rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div
+                    className={`w-16 h-16 bg-gradient-to-br ${item.color} rounded-2xl flex items-center justify-center mx-auto mb-4`}
+                  >
                     <Icon className="h-8 w-8 text-white" />
                   </div>
-                  <div className="text-3xl font-bold text-econova-primary mb-2">{stat.number}</div>
-                  <div className="text-econova-text-light">{stat.label}</div>
+                  <div className="text-xl font-bold text-econova-primary mb-2">{item.title}</div>
+                  <div className="text-econova-text-light">{item.desc}</div>
                 </div>
               )
             })}
