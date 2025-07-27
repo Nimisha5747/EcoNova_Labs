@@ -271,7 +271,7 @@ export default function HomePage() {
             <Link href="/schedule-pickup">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-econova-primary to-econova-primary-light hover:from-econova-primary-light hover:to-econova-primary text-white px-12 py-6 text-xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
+                className="w-72 bg-gradient-to-r from-econova-primary to-econova-primary-light hover:from-econova-primary-light hover:to-econova-primary text-white px-12 py-6 text-xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
               >
                 Start Your E-Waste Journey Today
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
