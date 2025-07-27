@@ -517,7 +517,7 @@ export default function HomePage() {
                   playsInline
                   poster="/placeholder.svg?height=256&width=400&text=E-Waste+Crisis+Video+2"
                 >
-                  <source src="/videos/ewaste-crisis-2.mp4" type="video/mp4" />
+                  <source src="/WhatsApp Video 2025-07-26 at 23.17.41.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center animate-pulse">
