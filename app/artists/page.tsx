@@ -132,37 +132,7 @@ export default function ArtistsPage() {
         </div>
       </section>
 
-      {/* Featured Projects */}
-      <section className="py-20 bg-econova-lighter">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-econova-primary mb-4">Featured Art Projects</h2>
-            <p className="text-xl text-econova-text-light max-w-2xl mx-auto">
-              Inspiring creations from our artist community
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {artProjects.map((project, index) => (
-              <Card
-                key={index}
-                className="border-0 shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300"
-              >
-                <div className="aspect-video bg-gradient-to-br from-econova-accent/20 to-econova-secondary/20 flex items-center justify-center">
-                  <Camera className="h-16 w-16 text-econova-accent/60" />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-econova-primary mb-2">{project.title}</h3>
-                  <p className="text-econova-text-light mb-4">by {project.artist}</p>
-                  <p className="text-econova-text mb-4">{project.description}</p>
-                  <Badge variant="outline" className="text-xs">
-                    Materials: {project.materials}
-                  </Badge>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Available Components */}
       <section className="py-20 bg-white">
