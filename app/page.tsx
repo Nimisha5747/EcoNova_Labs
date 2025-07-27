@@ -636,7 +636,7 @@ export default function HomePage() {
             <Link href="/schedule-pickup">
               <Button
                 size="lg"
-                className="px-12 py-6 text-xl font-semibold bg-gradient-to-r from-econova-accent to-econova-secondary hover:from-econova-accent/90 hover:to-econova-secondary/90 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
+                className="w-72 px-12 py-6 text-xl font-semibold bg-gradient-to-r from-econova-accent to-econova-secondary hover:from-econova-accent/90 hover:to-econova-secondary/90 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
               >
                 Get Instant AI Price Quote
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
