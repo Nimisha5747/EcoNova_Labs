@@ -636,9 +636,9 @@ export default function HomePage() {
             <Link href="/schedule-pickup">
               <Button
                 size="lg"
-                className="w-80 px-12 py-6 text-xl font-semibold bg-gradient-to-r from-econova-accent to-econova-secondary hover:from-econova-accent/90 hover:to-econova-secondary/90 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
+                className="w-72 px-12 py-6 text-xl font-semibold bg-gradient-to-r from-econova-accent to-econova-secondary hover:from-econova-accent/90 hover:to-econova-secondary/90 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
               >
-                Get Instant AI Price Quote
+                Schedule Pickup
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
@@ -646,7 +646,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-econova-primary px-12 py-6 text-xl font-semibold bg-transparent backdrop-blur-sm transition-all duration-300 hover:scale-105 group"
+                className="w-72 border-2 border-white text-white hover:bg-white hover:text-econova-primary px-12 py-6 text-xl font-semibold bg-transparent backdrop-blur-sm transition-all duration-300 hover:scale-105 group"
               >
                 Shop Refurbished Parts
                 <ShoppingBag className="ml-3 h-6 w-6 group-hover:rotate-12 transition-transform" />
