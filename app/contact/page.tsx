@@ -79,7 +79,7 @@ export default function ContactPage() {
                   </div>
                   <h3 className="text-xl font-semibold text-econova-primary mb-4">Email Us</h3>
                   <p className="text-econova-text-light mb-4">Send us an email and we'll respond quickly</p>
-                  <p className="text-econova-primary font-semibold text-lg">support@econova.in</p>
+                  <p className="text-econova-primary font-semibold text-lg">econova455@gmail.com</p>
                   <p className="text-sm text-econova-text-light mt-2">Response within 24 hours</p>
                 </CardContent>
               </Card>

@@ -167,7 +167,7 @@ export default function HelpPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-econova-primary mb-4">Email Us</h3>
                 <p className="text-econova-text-light mb-4">Send us an email and we'll respond within 24 hours</p>
-                <p className="text-econova-primary font-semibold">support@econova.in</p>
+                <p className="text-econova-primary font-semibold">econova455@gmail.com</p>
                 <p className="text-sm text-econova-text-light mt-2">We respond within 24 hours</p>
               </CardContent>
             </Card>

@@ -335,11 +335,11 @@ export default function TrackPage() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <Phone className="h-4 w-4 text-econova-text-light" />
-                      <span className="text-econova-text">+91 98765 43210</span>
+                      <span className="text-econova-text">+91 78967840XX</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Mail className="h-4 w-4 text-econova-text-light" />
-                      <span className="text-econova-text">support@econova.in</span>
+                      <span className="text-econova-text">econova455@gmail.com</span>
                     </div>
                   </div>
                 </div>

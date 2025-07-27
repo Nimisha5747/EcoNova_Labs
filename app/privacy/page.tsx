@@ -187,7 +187,7 @@ export default function PrivacyPage() {
             <CardContent>
               <p className="text-econova-text-light mb-4">If you have questions or concerns, contact us at:</p>
               <div className="space-y-2 text-econova-text-light">
-                <p>📧 privacy@econova.in</p>
+                <p>📧econova455@gmail.com</p>
                 <p>📞 +91 78967840xx</p>
                 <p>📍 Prayagraj, Uttar Pradesh, India</p>
               </div>

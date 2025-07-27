@@ -148,7 +148,7 @@ export default function HomePage() {
             <Link href="/schedule-pickup">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-econova-accent to-econova-secondary hover:from-econova-accent/90 hover:to-econova-secondary/90 text-white px-12 py-6 text-xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
+                className="w-72 bg-gradient-to-r from-econova-accent to-econova-secondary hover:from-econova-accent/90 hover:to-econova-secondary/90 text-white px-12 py-6 text-xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group"
               >
                 Schedule a Pickup
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
@@ -158,7 +158,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-econova-primary px-12 py-6 text-xl font-semibold bg-transparent backdrop-blur-sm transition-all duration-300 hover:scale-105 group"
+                className="w-72 border-2 border-white text-white hover:bg-white hover:text-econova-primary px-12 py-6 text-xl font-semibold bg-transparent backdrop-blur-sm transition-all duration-300 hover:scale-105 group"
               >
                 Shop Refurbished Parts
                 <ShoppingBag className="ml-3 h-6 w-6 group-hover:rotate-12 transition-transform" />
@@ -166,35 +166,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* 3D Impact Stats */}
-          <div
-            className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto animate-slide-up"
-            style={{ animationDelay: "0.8s" }}
-          >
-            {[
-              { number: "25,000+", label: "Devices Processed", icon: Recycle },
-              { number: "₹50L+", label: "Cash Paid to Users", icon: DollarSign },
-              { number: "15 Tons", label: "E-Waste Diverted", icon: TreePine },
-              { number: "500+", label: "Happy Customers", icon: Users },
-            ].map((stat, index) => {
-              const Icon = stat.icon
-              return (
-                <div key={index} className="group perspective-1000" style={{ animationDelay: `${1 + index * 0.2}s` }}>
-                  <div className="relative preserve-3d transition-transform duration-700 hover:rotate-y-12 group-hover:scale-105">
-                    <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 shadow-2xl hover:shadow-3xl transition-all duration-300">
-                      <div className="flex items-center justify-center mb-4">
-                        <div className="w-16 h-16 bg-gradient-to-br from-econova-accent to-econova-secondary rounded-2xl flex items-center justify-center group-hover:animate-bounce">
-                          <Icon className="h-8 w-8 text-white" />
-                        </div>
-                      </div>
-                      <div className="text-4xl font-bold text-econova-accent mb-2">{stat.number}</div>
-                      <div className="text-white/80 text-lg font-medium">{stat.label}</div>
-                    </div>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
+          
         </div>
       </section>
 

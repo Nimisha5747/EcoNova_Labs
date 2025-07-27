@@ -42,9 +42,9 @@ export function Footer() {
             <div className="flex space-x-4">
               {[
                 { Icon: Facebook, href: "#" },
-                { Icon: Twitter, href: "#" },
-                { Icon: Instagram, href: "#" },
-                { Icon: Linkedin, href: "http://www.linkedin.com/in/econova-595389377" },
+                { Icon: Twitter, href: "https://x.com/EcoNovaLabs" },
+                { Icon: Instagram, href: "https://www.instagram.com/weareeconovaofficial/" },
+                { Icon: Linkedin, href: "http://linkedin.com/company/econovalabs" },
               ].map((social, index) => (
                 <a
                   key={index}

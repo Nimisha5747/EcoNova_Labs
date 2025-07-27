@@ -50,9 +50,7 @@ export default function TermsPage() {
                   By accessing or using EcoNova's platform, you agree to be bound by these Terms, our Privacy Policy,
                   and any other policies we publish.
                 </p>
-                <p className="text-econova-text-light">
-                  If you do not agree with any part, please do not use our services.
-                </p>
+                
               </CardContent>
             </Card>
 
@@ -277,7 +275,7 @@ export default function TermsPage() {
               <CardContent>
                 <p className="text-econova-text-light mb-4">For any concerns, questions, or support:</p>
                 <div className="space-y-2 text-econova-text-light">
-                  <p>📧 support@econova.in</p>
+                  <p>📧 econova455@gmail.com</p>
                   <p>📍 Prayagraj, Uttar Pradesh, India</p>
                 </div>
               </CardContent>
