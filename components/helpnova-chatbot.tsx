@@ -121,7 +121,7 @@ export function HelpNovaChatbot() {
       message.includes("help") ||
       message.includes("call")
     ) {
-      return "📞 Contact EcoNova Support:\n\n📧 Email: support@econova.in\n📱 Phone: +91 78967840xx\n🕒 Hours: Mon-Sat, 9 AM - 7 PM\n📍 Location: Prayagraj, UP, India\n\n💬 Live Chat: Available on website\n📱 WhatsApp: Quick responses\n📧 Email: Detailed queries\n☎️ Call: Urgent support\n\nI'm here 24/7 for instant help! What specific issue can I assist with?"
+      return "📞 Contact EcoNova Support:\n\n📧 Email: econova455@gmail.com\n📱 Phone: +91 78967840xx\n🕒 Hours: Mon-Sat, 9 AM - 7 PM\n📍 Location: Prayagraj, UP, India\n\n💬 Live Chat: Available on website\n📱 WhatsApp: Quick responses\n📧 Email: Detailed queries\n☎️ Call: Urgent support\n\nI'm here 24/7 for instant help! What specific issue can I assist with?"
     }
 
     // General greetings
@@ -185,7 +185,9 @@ export function HelpNovaChatbot() {
 
       {/* Chatbot Window */}
       {isOpen && (
-        <Card className="fixed bottom-6 right-6 w-96 h-[600px] shadow-2xl border-0 z-50 bg-white">
+       <Card className="fixed bottom-4 right-4 w-[85vw] max-w-sm h-[70vh] sm:w-80 sm:h-[500px] shadow-xl border-0 z-50 bg-white rounded-lg">
+
+
           <CardHeader className="bg-gradient-to-r from-econova-primary to-econova-primary-light text-white p-4 rounded-t-lg">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
