@@ -137,7 +137,7 @@ export default function HomePage() {
             className="text-xl text-white/90 mb-16 max-w-4xl mx-auto leading-relaxed animate-slide-up"
             style={{ animationDelay: "0.4s" }}
           >
-            AI-powered price evaluation, doorstep pickup, instant cash payments, and certified disposal. Join the
+            AI powered price evaluation, doorstep pickup, instant cash payments, and certified disposal. Join the
             gamified revolution in sustainable e-waste management.
           </p>
 
